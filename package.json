@@ -1,0 +1,25 @@
+{
+  "name": "diding-submission-bookshelf-api",
+  "version": "1.0.0",
+  "description": "untuk submision dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./"
+  },
+  "author": "Raey Faldo",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.9",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0",
+    "nodemon": "^3.1.2"
+  },
+  "type": "module"
+}
